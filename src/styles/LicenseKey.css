@@ -1,0 +1,8 @@
+.li-in {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}

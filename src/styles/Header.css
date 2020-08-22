@@ -1,0 +1,27 @@
+.heads {
+  background: -webkit-linear-gradient(212deg, rgba(68,79,112,1) 40%, rgba(164,119,86,1) 72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold {
+  background: -webkit-linear-gradient(212deg, rgba(53,98,157,1) 95%, rgba(150,113,73,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold2 {
+  background: -webkit-linear-gradient(212deg, rgba(35,67,109,1) 0%, rgba(150,113,73,1) 1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(35,67,109,1) 15%, rgba(115,85,53,1) 87%);
+    
+}
+
+.stripe-btn {
+    display: flex;
+    justify-content: center;
+}

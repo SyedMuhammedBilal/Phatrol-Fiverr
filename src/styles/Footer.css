@@ -1,0 +1,37 @@
+@media (max-width: 735px) {
+    .tweet-img {
+        width: 25vh;
+        margin-left: 30%;
+    }
+}
+@media (max-width: 544px) {
+    .tweet-img {
+        width: 25vh;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 443px) {
+    .tweet-img {
+        width: 25vh;
+        margin-left: 20%;
+    }
+}   
+@media (max-width: 443px) {
+    .end-cont {
+        margin-left: 6%;
+    }
+    .tweet-img {
+        width: 25vh;
+        margin-left: 15%;
+    }
+}   
+
+.end-cont {
+    margin-right: 12%;
+}
+
+.footer-p {
+    background: -webkit-linear-gradient(212deg, rgba(53,98,157,1) 95%, rgba(150,113,73,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

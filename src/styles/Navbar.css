@@ -1,0 +1,127 @@
+header {
+    padding: 0px 0;
+    background: #121619;
+    box-shadow: 0 4px 6px rgba(0,0,0,.2); 
+}
+.contai {
+    padding: 0 20px;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  @media (max-width: 320px) {
+      header {
+         width: 122% !important;
+      }
+  }
+  @media (max-width: 336px) {
+      header {
+         width: 12% !important;
+      }
+  }
+  .logo-box {
+    float: left;
+    margin-right: 20px;
+  }
+  .logo-box a {
+    outline: none;
+    display: block;
+  }
+  label {
+      color: white;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      margin-left: 30%;
+  }
+  .logo-box img {display: block;}
+  nav {
+    overflow: hidden;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    transition: .5s linear;
+  }
+  nav a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 3px;
+  }
+  nav a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background: #868686;
+    transition: width .5s linear;  
+  }
+  nav a:hover:after {width: 100%;}
+  
+  @media screen and (max-width: 660px) {
+    header {text-align: center;}
+    .logo-box {
+      float: none;
+      display: inline-block;
+      margin: 0 0 16px 0;
+    }
+    ul {float: none;}
+    nav li:first-of-type {margin-left: 0;}
+  }
+  @media screen and (max-width: 1051px) {
+    label {
+        margin-left: 25%;
+    }
+  }
+  @media screen and (max-width: 936px) {
+    label {
+        margin-left: 15%;
+    }
+  }
+  @media screen and (max-width: 873px) {
+    label {
+        margin-left: 1%;
+    }
+  }
+  @media screen and (max-width: 659px) {
+    label {
+        margin-left: -3%;
+    }
+  }
+  @media screen and (max-width: 459px) {
+    header {
+        width: 110%;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    header {
+        width: 105%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+  nav {overflow: visible;}
+  nav li {
+    display: block;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+  }
+  label {
+      margin-left: -2%;
+  }
+  nav li:hover {background: rgba(0,0,0,.1);}
+  nav a:after {content: none;}
+  }
